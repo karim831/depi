@@ -1,0 +1,30 @@
+--Req -> Design : ERD -> Mapping : Scema -> Implementation
+--DBA for History -> Datawarehouse 
+
+--Server-> DBS -> Scehma -> DBOS -> Data.
+--DBOS -> Table,Stored_Procedures,Triggers,Functions,Views
+
+SQL COMMNDS:
+
+--DDL :
+Deal with the structure(table,columns,procedurs,...) -> Create,Alter,Drop,Truncate(special case work on data remove mdf and ldf of the table); 
+
+--DML :
+Deal with the data itself -> Insert,Update,Delete
+--DQl :
+Deal with the data but for read -> Select
+--DCL : 
+Deal with Permission on system -> Grant,Revoke
+--DTL :
+Deal with Transactions -> Commit RollBack
+
+
+
+
+
+
+
+
+CQRS : Two databases one for read and another for write.
+
+
