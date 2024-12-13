@@ -277,7 +277,7 @@
             <mxPoint x="7.5" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X1uNKG1rofJCswYm5kxe-209" value="year" style="ellipse;whiteSpace=wrap;html=1;align=center;direction=east;" parent="1" vertex="1">
+        <mxCell id="X1uNKG1rofJCswYm5kxe-209" value="&lt;u&gt;year&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;direction=east;" parent="1" vertex="1">
           <mxGeometry x="332.5" y="270" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="X1uNKG1rofJCswYm5kxe-210" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="X1uNKG1rofJCswYm5kxe-192" target="X1uNKG1rofJCswYm5kxe-209" edge="1">
@@ -737,7 +737,7 @@
             <mxPoint x="210" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kfpGIlWbYLHi0j-v9RI3-1" value="choises" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="kfpGIlWbYLHi0j-v9RI3-1" value="choises" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="108" y="530" width="100" height="40" as="geometry" />
         </mxCell>
       </root>

@@ -3,9 +3,10 @@ create database exam_system;
 use exam_system;
 
 -- tables built in system
+
 create table course( 
 	id int primary key identity,
-	name nvarchar(10),
+	name nvarchar(50),
 	description nvarchar(max),
 	min_degree int,
 	max_degree int
@@ -20,8 +21,8 @@ create table account(
 
 create table instructor(
 	id int primary key identity,
-	fname nvarchar(10),
-	lname nvarchar(10),
+	fname nvarchar(20),
+	lname nvarchar(20),
 	date_birth date,
 	age as dbo.date_diff(date_birth),
 	type_t bit,
@@ -46,13 +47,15 @@ create table class(
 	capacity tinyint
 );
 
+drop table teach;
+
 create table teach(
 	instructor_id int,
 	class_id int,
 	teaching_year int check(teaching_year >= 1900 and teaching_year <= year(getdate())),
 	course_id int,
 	
-	primary key(instructor_id,class_id),
+	primary key(instructor_id,class_id,teaching_year),
 	
 	foreign key(instructor_id) references instructor(id),
 	foreign key(class_id) references class(id),
